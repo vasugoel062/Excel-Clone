@@ -31,7 +31,7 @@ body,html{
         display: flex;
     }
     .style-row button.active{
-    background-color: grey;
+    background-color : rgb(236, 231, 231);
     
     }.formula-container{
         height: 30px;
@@ -39,7 +39,7 @@ body,html{
     }
     .cell-container{
         height: calc(100vh - 130px);
-        background-color: rgb(212, 211, 211);
+        background-color: white;
         overflow: auto;
         position: relative;
     }

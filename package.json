@@ -1,20 +1,29 @@
 {
-  "name": "activity",
+  "name": "excel-clone",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "dist" : "electron-builder"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^9.0.5"
+    "electron": "^9.0.5",
+    "electron-builder": "^22.10.5"
   },
   "dependencies": {
     "ejs-electron": "^2.0.3",
+    "electron-packager": "^15.2.0",
     "jquery": "^3.5.1"
+  },
+  "build" : "electron-builder build --win --publish neve",
+  "deploy" : "electron-builder build --win --publish always",
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/vasugoel062/Excel-Clone.git"
   }
 }
